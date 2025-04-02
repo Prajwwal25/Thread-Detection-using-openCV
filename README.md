@@ -30,16 +30,16 @@ pip install opencv-python numpy
    ```bash
    python thread_detection.py
 ```
-```
+
 ### The script will:
 - Read the input image.
 - Convert it to grayscale.
 - Apply thresholding & noise removal.
 - Detect contours and draw bounding boxes.
 - Display the processed image with the detected thread count.
-```
-```
+
+
 ### Output Images:
 - **processed_threads.jpg** → Image with detected threads and count.
 - **thread_extracted.jpg** → Binary image showing extracted threads.
-```
+
