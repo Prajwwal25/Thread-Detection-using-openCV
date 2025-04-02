@@ -22,3 +22,20 @@ cd thread-detection
 
 # Install dependencies
 pip install opencv-python numpy
+
+## 🚀 Usage
+1. **Place your image** (e.g., `bolt.jpg`) in the project folder.
+2. **Run the script** using:
+   ```bash
+   python thread_detection.py
+
+### The script will:
+- Read the input image.
+- Convert it to grayscale.
+- Apply thresholding & noise removal.
+- Detect contours and draw bounding boxes.
+- Display the processed image with the detected thread count.
+
+### Output Images:
+- **processed_threads.jpg** → Image with detected threads and count.
+- **thread_extracted.jpg** → Binary image showing extracted threads.
